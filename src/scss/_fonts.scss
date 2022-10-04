@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'sans';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("../fnt/200.woff2?v=3.19") format("woff2"),
+         url("../fnt/200.woff?v=3.19") format("woff");
+}
+
+@font-face {
+    font-family: 'sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fnt/400.woff2?v=3.19") format("woff2"),
+         url("../fnt/400.woff?v=3.19") format("woff");
+}
+
+@font-face {
+    font-family: 'sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("../fnt/600.woff2?v=3.19") format("woff2"),
+         url("../fnt/600.woff?v=3.19") format("woff");
+}
+
+body {
+    // --zz-body-font-size: 18px;
+
+    hyphens: none;
+    font-feature-settings: 'frac', 'case', 'ccmp', 'ss01', 'ss04', 'cv01', 'cv10';
+}

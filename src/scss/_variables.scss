@@ -1,0 +1,44 @@
+$prefix: "zz-";
+
+$white: #fff;
+$black: #000;
+
+$primary: $black;
+$secondary: #ffad00;
+
+$light: #f6f4ee;
+$dark: #161613;
+
+$body-color: $black;
+$body-bg: $white;
+
+
+$font-family-sans-serif: 'sans', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$headings-font-weight: 600;
+$display-font-weight: $headings-font-weight;
+$paragraph-margin-bottom: 1rem;
+
+$text-muted: rgba(0,0,0,.35);
+$link-decoration: none;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 756px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+$navbar-light-color: $body-color;
+$navbar-light-hover-color: $body-color;
+$navbar-light-active-color: $body-color;
+
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $white;
+$navbar-dark-active-color: $white;
+
+$card-border-width: 0px;
+$card-bg: transparent;
+
+$code-color: $body-color

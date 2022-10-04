@@ -1,0 +1,23 @@
+{
+  "name": "schoolpost.ru",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "@temazinkin",
+  "license": "MIT",
+  "scripts": {
+    "server": "browser-sync start --s --f 'assets/css/*.css, **/*.html' --no-open --no-notify",
+    "scss": "node-sass --output-style compressed -o assets/css src/scss",
+    "watch:css": "onchange \"src/scss\" -- npm run scss",
+    "start": "run-p server watch:css"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "node-sass": "^6.0.1",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

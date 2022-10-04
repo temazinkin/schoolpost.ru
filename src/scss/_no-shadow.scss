@@ -1,0 +1,33 @@
+$input-btn-focus-box-shadow: null;
+$btn-box-shadow: null;
+$btn-focus-box-shadow: null;
+$btn-active-box-shadow: null;
+$input-box-shadow: null;
+$input-focus-box-shadow: null;
+$input-transition: null;
+$form-check-input-focus-box-shadow: null;
+$form-select-box-shadow: null;
+$form-select-focus-box-shadow: null;
+$form-range-track-box-shadow: null;
+$form-range-thumb-box-shadow: null;
+$form-range-thumb-focus-box-shadow: null;
+$form-range-thumb-focus-box-shadow-width: null;
+$dropdown-box-shadow: null;
+$dropdown-dark-box-shadow: null;
+$pagination-focus-box-shadow: null;
+$card-box-shadow: null;
+$accordion-button-focus-box-shadow: null;
+$popover-box-shadow: null;
+$toast-box-shadow: null;
+$modal-content-box-shadow-xs: null;
+$modal-content-box-shadow-sm-up: null;
+$progress-box-shadow: null;
+$thumbnail-box-shadow: null;
+$btn-close-focus-shadow: null;
+$offcanvas-box-shadow: null;
+
+*:hover,
+*:focus,
+*:active {
+    box-shadow: none !important;
+}
