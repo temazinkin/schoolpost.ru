@@ -1,10 +1,15 @@
 
 .footer-info{
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
-.hyperlinks-list h5{
+.blue {
   color: rgb(38, 81, 236);
+
+  &:active,
+  &:hover {
+    color: rgb(1, 23, 164);
+  }
 }
 
 .project-participant{
