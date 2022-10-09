@@ -17,6 +17,14 @@
         );
 
     .title {
-        color: var(--hero-color, #EE4700);
+        color: transparent;
+      	-webkit-background-clip: text;
+
+      	background-clip: text;
+      	background-image: linear-gradient(
+            to right,
+            var(--hero-title-left, rgb(255, 77, 77)) 0%,
+            var(--hero-title-right, rgb(251, 174, 4)) 100%,
+        );
     }
 }
