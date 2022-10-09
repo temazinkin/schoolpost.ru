@@ -1,0 +1,13 @@
+.post-bg{
+  padding-top: 15px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: box-shadow 0.5s;
+}
+
+.post-bg:hover,
+.post-bg:focus,
+.post-bg:active {
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+
+}
