@@ -26,8 +26,8 @@ $thumbnail-box-shadow: null;
 $btn-close-focus-shadow: null;
 $offcanvas-box-shadow: null;
 
-// *:hover,
-// *:focus,
-// *:active {
-//     box-shadow: none !important;
-// }
+*:hover,
+*:focus,
+*:active {
+    box-shadow: none !important;
+}
