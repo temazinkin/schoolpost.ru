@@ -1,0 +1,32 @@
+.logo{
+  position: absolute;
+}
+
+.logo-padding{
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.logo-img{
+  padding: 0;
+  margin-top: -100px;
+  width: 400px;
+}
+
+@media (max-width: 849px) {
+
+  .logo{
+    position: relative;
+  }
+
+  .logo-padding{
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .logo-img{
+    margin-top: 35px;
+    width: 150px;
+  }
+
+}
