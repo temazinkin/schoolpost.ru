@@ -6,7 +6,7 @@
   "author": "@temazinkin",
   "license": "MIT",
   "scripts": {
-    "server": "browser-sync start --s --f 'assets/css/*.css, **/*.html' --no-open --no-notify",
+    "server": "browser-sync start --port 8000 --s --f 'assets/css/*.css, **/*.html' --no-open --no-notify",
     "scss": "node-sass --output-style compressed -o assets/css src/scss",
     "watch:css": "onchange \"src/scss\" -- npm run scss",
     "start": "run-p server watch:css"
